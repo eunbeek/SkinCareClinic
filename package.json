@@ -1,0 +1,64 @@
+{
+  "name": "body-contouring-clinic",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@toast-ui/react-calendar": "^1.0.5",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.6.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.15",
+    "npm-run-all": "^4.1.5",
+    "rc-scrollbars": "^1.0.3",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-day-picker": "^7.4.10",
+    "react-dom": "^17.0.1",
+    "react-router-bootstrap": "^0.25.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-validation": "^3.0.7",
+    "tui-calendar": "^1.13.0",
+    "validator": "^13.5.2",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "npm-run-all --parallel start:**",
+    "start:client": "react-scripts start",
+    "start:server": "node ./servers/server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prettier-check": "prettier --check \"./**/*.{md,jsx,json,html,css,js,yml}\""
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "prettier-eslint": "^12.0.0",
+    "prettier-eslint-cli": "^5.0.0"
+  }
+}
