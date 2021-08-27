@@ -39,8 +39,8 @@ Account Login information:
 Please copy the `dbConnectionStr.json` file to your root for connecting to database.
 
 #### steps:
-- `git clone`
-- `cd` to `Body-Contouring-Clinic/body-contouring-clinic` directory
+- `git clone https://github.com/eunbeek/SkinCareClinic.git`
+- `cd` to `SkinCareClinic` directory
 - `npm install`
 - Front-end (port 3000) : `npm start` 
 - Back-end  (port 3001) : `node ./servers/server`
